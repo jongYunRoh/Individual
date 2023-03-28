@@ -1,0 +1,24 @@
+@CHARSET "UTF-8";
+h2{
+   text-align: center;
+}
+
+.tdcolor{
+background-color: ivory;
+	
+}
+table{
+   margin: auto;
+   border: 1px solid black;
+}
+table.wid{
+   width: 70%;
+}
+a:link,a:visited,a:active{
+   text-decoration: none;
+}
+
+a:hover{
+   text-decoration:underline;
+   color:blue;
+}

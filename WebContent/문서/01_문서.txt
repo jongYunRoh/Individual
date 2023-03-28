@@ -1,0 +1,56 @@
+01_문서.txt
+
+11_MVC
+template 동적레이아웃
+
+새프로젝트 >> dynamic web Project
+이름:11_MVC
+next next
+web.xml체크
+---------------------------- 회원관리
+셋팅
+1. lib/*.jar
+
+2. META-INF/context.xml 커넥션 풀 사용
+
+3. src/command.CommandAction.java 인터페이스 복사
+
+4. src/controller.ControllerDispatcher.java 복사(수정)=>template.jsp 사용(동적배치)
+   + web.xml
+   + command.properties
+ =====================================  
+5. back-end
+   05_
+   src/member 복사 DTO,DAO
+   
+6. 
+   src/action.member.MainAction.java
+   src/action.member.InputFormAction.java
+   src/action.member.InputProAction.java
+
+   
+7. front-end
+   WebContent
+     header/header.jsp
+     module/bottom.sjp
+            top.jsp
+            left.jsp
+     template/template.jsp
+=====================================여기까지 작업하여 배포
+     
+     member/
+       confirmID.jsp   Ajax사용
+       inputForm.jsp
+       inputPro.jsp
+       
+       loginForm.jsp
+       loginPro.jsp
+       logOut.jsp
+       
+       modify.jsp
+       updateForm.jsp
+       updatePro.jsp
+       
+       deleteForm.jsp
+       deletePro.jsp
+     ---------------------------
